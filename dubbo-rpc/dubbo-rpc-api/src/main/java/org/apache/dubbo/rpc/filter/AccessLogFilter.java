@@ -65,6 +65,8 @@ import static org.apache.dubbo.rpc.Constants.ACCESS_LOG_KEY;
 @Activate(group = PROVIDER, value = ACCESS_LOG_KEY)
 public class AccessLogFilter implements Filter {
 
+    //test
+
     private static final Logger logger = LoggerFactory.getLogger(AccessLogFilter.class);
 
     private static final String LOG_KEY = "dubbo.accesslog";
